@@ -3,7 +3,7 @@ patchKintrSynctex
 
 code to patch the Synctex file for use  with knitr (similar to `patchDVI` for sweave)
 
-USAGE
+Usage
 ------
 
 Save `patchKnitrSynctex.R` anywhere on your PC. 
