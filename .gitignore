@@ -28,3 +28,10 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 *.tlog
 [Rr]elease*/
+*.sdf
+*.sln
+*.vcxproj
+*.vcxproj.filters
+synctexfixer/syntexfixer.cbp
+synctexfixer/syntexfixer.depend
+synctexfixer/syntexfixer.layout
