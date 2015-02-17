@@ -14,7 +14,7 @@ patchKnitrSynctex <- function (texfile){
 		stop(paste(f,"does not exist! Did you set 'opts_knit$set(concordance = TRUE);'?"))
 	text<-readChar(f, file.info(f)$size);
 	require(stringr)
-	re="\\\\Sconcordance\\{concordance:([^:]*):([^\\%]*):\\%\\r?\\n(\\d+)(( \\d+ \\d+)*)\\}";
+	re="\\\\Sconcordance\\{concordance:([^:]*):([^\\%]*):\\%\\r?\\n(\\d+)(( \\d+ \\d+)*)";
 	parsed=str_match_all(text,re);
 	for(i in seq(1,nrow(parsed[[1]]))){		
 		texF=parsed[[1]][i,2];
