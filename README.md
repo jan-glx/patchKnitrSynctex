@@ -1,5 +1,10 @@
+[DEPRECATED] patchKintrSynctex NOTE: Active Development for this function has moved to the [patchSynctex package (CRAN)](http://cran.r-project.org/web/packages/patchSynctex/index.html) at [Emmanuel Charpentiers Repository](https://github.com/EmmanuelCharpentier/patchKnitrSynctex)
+=====================
+You will however still find here an much faster but undocumented c++ version of the function.
+
 patchKintrSynctex
-=================
+=====================
+
 
 code to patch the Synctex file for use  with knitr (similar to `patchDVI` for sweave)
 
