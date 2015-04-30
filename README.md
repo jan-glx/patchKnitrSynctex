@@ -1,4 +1,4 @@
-[DEPRECATED] patchKintrSynctex NOTE: Active Development for this function has moved to the [patchSynctex package (CRAN)](http://cran.r-project.org/web/packages/patchSynctex/index.html) at [Emmanuel Charpentiers Repository](https://github.com/EmmanuelCharpentier/patchKnitrSynctex)
+[DEPRECATED] patchKintrSynctex NOTE: Active Development for this function has moved to the [patchSynctex package (CRAN)](http://cran.r-project.org/web/packages/patchSynctex/index.html) at [Emmanuel Charpentiers Repository](https://github.com/EmmanuelCharpentier/patchSynctex)
 =====================
 You will however still find here an much faster but undocumented c++ version of the function.
 
