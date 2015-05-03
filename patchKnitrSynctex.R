@@ -13,6 +13,7 @@ patchKnitrSynctex <- function (texfile){
 	if (!file.exists(f)) 
 		stop(paste(f,"does not exist! Did you set 'opts_knit$set(concordance = TRUE);'?"))
 	text<-readChar(f, file.info(f)$size);
+	text<-gsub(" \\%\\n"," ",text)
 	require(stringr)
 	re="\\\\Sconcordance\\{concordance:([^:]*):([^\\%]*):\\%\\r?\\n(\\d+)(( \\d+ \\d+)*)\\}";
 	parsed=str_match_all(text,re);
